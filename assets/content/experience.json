@@ -4,11 +4,11 @@
         "company": "Checkmarx",
         "location": "Tel Aviv",
         "startDate": "Feb 2024",
-        "endDate": "Present",
+        "endDate": "Present", 
         "description": [
             "Leading source code security analysis and vulnerability research",
             "Identifying cyber and information security risks through code and infrastructure research",
-            "Initiated and executed projects to improve and core systems and processes performance, reliability, and robustness.",
+            "Initiated and executed projects to improve core systems and processes' performance, reliability, and robustness",
             "Developing automated security testing frameworks and tools"
         ]
     },
@@ -36,4 +36,4 @@
             "Represented team interests in global engineering forums and standardization efforts"
         ]
     }
-] 
+]
