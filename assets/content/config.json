@@ -1,0 +1,28 @@
+{
+    "sections": [
+        {
+            "id": "experience",
+            "title": "Experience",
+            "visible": true,
+            "order": 1
+        },
+        {
+            "id": "education",
+            "title": "Education",
+            "visible": true,
+            "order": 3
+        },
+        {
+            "id": "publications",
+            "title": "Publications",
+            "visible": true,
+            "order": 2
+        },
+        {
+            "id": "interests",
+            "title": "Interests",
+            "visible": true,
+            "order": 4
+        }
+    ]
+} 

@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Hidden Dangers of LLM Web Browsing Technologies",
+        "authors": ["Eilon Cohen"],
+        "conference": "systemweakness.com",
+        "year": "2023",
+        "link": "https://systemweakness.com/hidden-dangers-of-llm-web-browsing-technologies-b786a5712b2b",
+        "description": "A proof of concept demonstrating how LLMs with web browsing capabilities can be exploited for data exfiltration through base64 encoding and malicious URLs, highlighting critical security implications for AI systems.",
+        "tags": ["LLM Security", "Data Exfiltration", "AI Vulnerabilities", "Prompt Injection", "OWASP Top 10 LLM"]
+    }
+] 

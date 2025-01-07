@@ -1,0 +1,18 @@
+[
+    {
+        "title": "B.Sc. Computer Science",
+        "institution": "The Open University",
+        "location": "Tel Aviv, Israel",
+        "startDate": "Oct 2021",
+        "endDate": "March 2023",
+        "description": ["Specialized in Cybersecurity and Software Engineering"]
+    },
+    {
+        "title": "B.Sc. Mechanical Engineering",
+        "institution": "Jerusalem College of Engineering",
+        "location": "Jerusalem, Israel",
+        "startDate": "Oct 2017",
+        "endDate": "March 2021",
+        "description": ["Specialized in Robotics and Automation"]
+    }
+] 

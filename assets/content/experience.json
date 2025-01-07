@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Security Analyst",
+        "company": "Checkmarx",
+        "location": "Tel Aviv",
+        "startDate": "Feb 2024",
+        "endDate": "Present",
+        "description": [
+            "Leading source code security analysis and vulnerability research",
+            "Identifying cyber and information security risks through code and infrastructure research",
+            "Initiated and executed projects to improve and core systems and processes performance, reliability, and robustness.",
+            "Developing automated security testing frameworks and tools"
+        ]
+    },
+    {
+        "title": "Cyber Security Analyst",
+        "company": "Trusteer - IBM Security",
+        "location": "Tel Aviv",
+        "startDate": "March 2022",
+        "endDate": "Feb 2024",
+        "description": [
+            "Architected and implemented cloud security solutions using AWS, reducing security incidents by 40%",
+            "Optimized SIEM system (QRadar), reducing false positives by 60% through advanced detection rules",
+            "Led security compliance initiatives and developed automated security policies across multiple tools"
+        ]
+    },
+    {
+        "title": "System Engineer, Tech Lead",
+        "company": "Intel",
+        "location": "Israel",
+        "startDate": "March 2020",
+        "endDate": "March 2022",
+        "description": [
+            "Led a team of 4 engineers, managing critical fab operations and infrastructure",
+            "Spearheaded high-budget cross-organizational projects and system improvements",
+            "Represented team interests in global engineering forums and standardization efforts"
+        ]
+    }
+] 

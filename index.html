@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eilon Cohen - Security Engineer specializing in Application Security and Cyber Security Analysis">
+    <meta name="keywords" content="Security Engineer, AppSec, Cyber Security, Software Engineering">
+    <meta name="author" content="Eilon Cohen">
+    <meta property="og:title" content="Eilon Cohen | Security Engineer">
+    <meta property="og:description" content="Security Engineer specializing in Application Security and Cyber Security Analysis">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <title>Eilon Cohen | Security Engineer</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/content/intro.json" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="assets/js/main.js" as="script">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content" id="header-content">
+                <!-- Dynamically loaded from intro.json -->
+            </div>
+            <div class="header-social-links" id="header-social-links">
+                <!-- Dynamically loaded social links -->
+            </div>
+        </header>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#publications">Publications</a>
+            <a href="#interests">Interests</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <main>
+            <section id="about">
+                <h2>// About</h2>
+                <div id="about-content">
+                    <!-- Dynamically loaded from intro.json -->
+                </div>
+            </section>
+
+            <section id="experience">
+                <h2>// Experience</h2>
+                <div class="timeline" id="experience-content">
+                    <!-- Dynamically loaded from experience.json -->
+                </div>
+            </section>
+
+            <section id="education">
+                <h2>// Education</h2>
+                <div id="education-content">
+                    <!-- Dynamically loaded from education.json -->
+                </div>
+            </section>
+
+            <section id="publications">
+                <h2>// Publications</h2>
+                <div class="publications-grid" id="publications-content">
+                    <!-- Dynamically loaded from publications.json -->
+                </div>
+            </section>
+
+            <section id="interests">
+                <h2>// Interests & Projects</h2>
+                <div class="interests-grid" id="interests-content">
+                    <!-- Dynamically loaded from interests.json -->
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>// Contact</h2>
+                <div class="contact-content" id="contact-content">
+                    <!-- Dynamically loaded from contact.json -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="social-links" id="social-links">
+                <!-- Dynamically loaded from intro.json -->
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
