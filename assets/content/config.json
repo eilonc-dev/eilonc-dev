@@ -24,5 +24,7 @@
             "visible": true,
             "order": 4
         }
-    ]
+    ],
+    "email": "contact[at]domain[dot]com",
+    "phone": "+XX XXX XXX XXXX"
 } 
