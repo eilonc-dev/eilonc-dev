@@ -1,15 +1,29 @@
 [
     {
-        "title": "Security Analyst",
-        "company": "Checkmarx",
-        "location": "Tel Aviv",
-        "startDate": "Feb 2024",
-        "endDate": "Present", 
-        "description": [
-            "Leading source code security analysis and vulnerability research",
-            "Identifying cyber and information security risks through code and infrastructure research",
-            "Initiated and executed projects to improve core systems and processes' performance, reliability, and robustness",
-            "Developing automated security testing frameworks and tools"
+        "positions": [
+            {
+                "title": "Experienced Security Analyst",
+                "company": "Checkmarx",
+                "location": "Tel Aviv, Israel",
+                "period": "Feb 2024 - Present",
+                "description": [
+                    "Analyze and research complex security vulnerabilities in the wild, and in enterprise software systems using Checkmarx's SCA, SAST, and SCS solutions",
+                    "Support product development by providing deep technical expertise in application security analysis and vulnerability research",
+                    "Assist enterprise customers with complex security assessments and vulnerability validations",
+                    "Contribute to improving detection capabilities and reducing false positives in security scanning tools",
+                    "Maintain expertise in emerging security threats and vulnerability patterns to enhance product effectiveness",
+                    "Initiated and executed projects to improve core systems and processes' performance, reliability, and robustness", 
+                    "Developed automated security testing frameworks and tools"
+                ],
+                "technologies": [
+                    "SAST",
+                    "SCA",
+                    "SCS",
+                    "API Security",
+                    "Cloud Security",
+                    "CI/CD Security"
+                ]
+            }
         ]
     },
     {
@@ -19,9 +33,19 @@
         "startDate": "March 2022",
         "endDate": "Feb 2024",
         "description": [
-            "Architected and implemented cloud security solutions using AWS, reducing security incidents by 40%",
-            "Optimized SIEM system (QRadar), reducing false positives by 60% through advanced detection rules",
-            "Led security compliance initiatives and developed automated security policies across multiple tools"
+            "Designed and implemented cloud security architectures using AWS services, achieving CIS benchmark compliance across infrastructure",
+            "Developed and integrated security tools across AWS Security, BigFix, and Nessus to enhance security posture and visibility",
+            "Optimized SIEM system (QRadar) through custom detection rules and playbooks, reducing false positives by 60%",
+            "Implemented comprehensive security policies and detection rules across multiple tools (BigFix, AWS Config, QRadar)",
+            "Collaborated with CISO to ensure compliance with internal and external security regulations"
+        ],
+        "technologies": [
+            "AWS Security",
+            "QRadar SIEM",
+            "BigFix",
+            "Nessus",
+            "Cloud Security",
+            "Security Architecture"
         ]
     },
     {
@@ -31,9 +55,18 @@
         "startDate": "March 2020",
         "endDate": "March 2022",
         "description": [
-            "Led a team of 4 engineers, managing critical fab operations and infrastructure",
-            "Spearheaded high-budget cross-organizational projects and system improvements",
-            "Represented team interests in global engineering forums and standardization efforts"
+            "Led a team of four engineers responsible for critical fab operations and core systems, implementing optimized work methods and technologies",
+            "Initiated and executed high-budget cross-organizational projects to enhance system performance and reliability",
+            "Managed vendor relationships and external contractors, including evaluation, selection, and SLA negotiations",
+            "Defined and implemented short and long-term strategic goals, improving operational efficiency and system robustness",
+            "Represented team interests in global engineering forums, ensuring alignment with international standards and practices"
+        ],
+        "technologies": [
+            "System Engineering",
+            "Project Management",
+            "Team Leadership",
+            "Process Optimization",
+            "Vendor Management"
         ]
     }
 ]

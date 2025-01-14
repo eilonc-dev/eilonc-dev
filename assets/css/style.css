@@ -462,4 +462,25 @@ h2 {
     .header-social-links a::after {
         display: none;
     }
+}
+
+.technologies {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+.tech-tag:hover {
+    opacity: 1;
 } 

@@ -127,20 +127,32 @@ const ContentRenderer = {
         if (!data) return;
 
         const experienceContent = document.getElementById('experience-content');
-        experienceContent.innerHTML = data.map(exp => `
-            <div class="exp-item">
-                <div class="exp-header">
-                    <div>
-                        <h3>${exp.title} <span>@ ${exp.company}</span></h3>
-                        <div class="location">${exp.location}</div>
+        experienceContent.innerHTML = data.map(exp => {
+            // Handle both single experience and positions array
+            const experiences = exp.positions || [exp];
+            
+            return experiences.map(position => `
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <div>
+                            <h3>${position.title} <span>@ ${position.company}</span></h3>
+                            <div class="location">${position.location}</div>
+                        </div>
+                        <span class="date">${position.period || `${position.startDate} - ${position.endDate}`}</span>
                     </div>
-                    <span class="date">${exp.startDate} - ${exp.endDate}</span>
+                    <ul>
+                        ${position.description.map(desc => `<li>${desc}</li>`).join('')}
+                    </ul>
+                    ${position.technologies ? `
+                        <div class="technologies">
+                            ${position.technologies.map(tech => `
+                                <span class="tech-tag">${tech}</span>
+                            `).join('')}
+                        </div>
+                    ` : ''}
                 </div>
-                <ul>
-                    ${exp.description.map(desc => `<li>${desc}</li>`).join('')}
-                </ul>
-            </div>
-        `).join('');
+            `).join('');
+        }).join('');
     },
 
     async renderEducation() {
