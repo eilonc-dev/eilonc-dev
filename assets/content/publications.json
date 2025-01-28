@@ -15,6 +15,14 @@
         "year": "2025",
         "link": "https://checkmarx.com/zero-post/the-infinite-loop-in-java-collections/",
         "description": "How Twitter (or X) trolling led us to discover a language-universal DoS feature. A fun and intuitive dive into how fundamental Java behaviors can create unexpected security flaws, and why challenging assumptions led us to uncover this interesting edge case.",
-        "tags": ["LLM Security", "Data Exfiltration", "AI Vulnerabilities", "Prompt Injection"]
+        "tags": [
+            "Java Security",
+            "DoS",
+            "Collections",
+            "Vulnerability Research",
+            "Language Design",
+            "Security Research",
+            "AppSec"
+        ]
     }
 ] 
